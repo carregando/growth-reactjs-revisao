@@ -3,12 +3,12 @@ import Button from '../src/components/button/Button'
 
 export default function HomePage () {
     return (
-        <>
-         <div>
-            <Title>Titulo da página</Title>
-            <Button>Botão</Button>
-            <label>LABEL TESTE</label>
-         </div>
-        </>
-    )
-}
+      <>
+        <div>
+          <Title>Titulo da página</Title>
+          <Button>Botão</Button>
+          <label>LABEL TESTE</label>
+        </div>
+      </>
+    )   
+} 	
