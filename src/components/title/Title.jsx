@@ -4,10 +4,10 @@ const StyledTitle = styled.h1`
   color: ${(props) => props.theme.primary};
 `
 
-export default function Title ({ children }) {
+export default function Title ({children, onClick}) {
   return (
     <>
-     <StyledTitle className={styled.title}>{children}</StyledTitle>
+     <StyledTitle onClick={onClick}>{children}</StyledTitle>
     </>
   )
 }   
